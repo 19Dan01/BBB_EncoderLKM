@@ -1,4 +1,4 @@
-obj-m+=EQEP_LKM.o
+obj-m+=EQEP-LKM.o
 
 all:
 	make -C /lib/modules/$(shell uname -r)/build/ M=$(PWD) modules
